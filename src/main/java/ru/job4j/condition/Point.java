@@ -6,6 +6,7 @@ public class Point {
         double y = Math.pow(y2 - y1, 2);
         double rsl = Math.sqrt(x + y);
         return rsl;
+
     }
 
     public static void main(String[] args) {
