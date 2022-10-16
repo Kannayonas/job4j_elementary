@@ -15,8 +15,8 @@ public class MathCalculator {
     }
 
     public static double fin(double first, double second) {
-        return MathCalculator.sumAndMultiply(first, second)
-                + MathCalculator.difAndDiv(first, second);
+        return sumAndMultiply(first, second)
+                + difAndDiv(first, second);
     }
 
     public static void main(String[] args) {
