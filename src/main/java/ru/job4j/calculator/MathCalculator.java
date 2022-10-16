@@ -13,10 +13,12 @@ public class MathCalculator {
         return dif(first, second)
                 + div(first, second);
     }
+
     public static double fin(double first, double second) {
         return MathCalculator.sumAndMultiply(first, second)
                 + MathCalculator.difAndDiv(first, second);
     }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + difAndDiv(10, 20));
