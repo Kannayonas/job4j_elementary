@@ -10,12 +10,12 @@ public class MathFunction {
         return first * second;
     }
 
-    public static double dif(double second, double first) {
-        return second - first;
+    public static double dif(double first, double second) {
+        return first - second;
     }
 
-    public static double div(double second, double first) {
-        return second / first;
+    public static double div(double first, double second) {
+        return first / second;
     }
 
     public static double fin(double sum, double multiply, double dif, double div) {

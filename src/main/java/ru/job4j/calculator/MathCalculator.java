@@ -9,15 +9,18 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double difAndDiv(double second, double first) {
-        return dif(second, first)
-                + div(second, first);
+    public static double difAndDiv(double first, double second) {
+        return dif(first, second)
+                + div(first, second);
     }
-
+    public static double fin(double first, double second) {
+        return MathCalculator.sumAndMultiply(first, second)
+                + MathCalculator.difAndDiv(first, second);
+    }
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + difAndDiv(40, 20));
-        System.out.println("Результат расчета равен: " + fin(30, 200, 20, 2));
+        System.out.println("Результат расчета равен: " + difAndDiv(10, 20));
+        System.out.println("Результат расчета равен: " + fin(10, 20));
     }
 }
 
