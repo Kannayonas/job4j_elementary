@@ -15,16 +15,16 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax2To2Then1() {
-        int left = 2;
+    public void whenMax3To1Then3() {
+        int left = 3;
         int right = 1;
         int result = Max.max(left, right);
-        int expected = 2;
+        int expected = 3;
         assertThat(result).isEqualTo(expected);
     }
 
     @Test
-    public void whenMax1To2Then3() {
+    public void whenMax1To3Then3() {
         int left = 1;
         int right = 3;
         int result = Max.max(left, right);
